@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Abeneazer Getachew — Projects</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- MDB + Font Awesome (for ripple + icons in footer) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <style>
+      /* nav links  */
+      .menu-link {
+        display: block;
+        padding: 0.5rem 0.75rem;
+        color: rgba(255, 255, 255, 0.75);
+        text-decoration: none;
+        border-radius: 0.375rem;
+      }
+      .menu-link:hover,
+      .menu-link:focus {
+        color: #fff;
+        text-decoration: underline;
+      }
+      .menu-link.active {
+        color: #fff;
+        text-decoration: underline;
+        font-weight: 600;
+      }
+
+      @media (min-width: 80rem) {
+        .container {
+          padding-left: 2rem;
+          padding-right: 2rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="d-flex flex-column min-vh-100">
+    <!-- HEADER / NAVBAR (same across pages) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container d-flex align-items-center">
+        <button
+          class="navbar-toggler me-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav gap-1">
+            <li class="nav-item">
+              <a class="menu-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="menu-link" href="hobbies.html">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="menu-link" href="projects.html">Projects</a>
+            </li>
+          </ul>
+        </div>
+
+        <a class="navbar-brand ms-auto fw-bold" href="home.html">AG</a>
+      </div>
+    </nav>
+
+    <!-- ===== BODY  ===== -->
+    <main class="container py-5">
+      <h1 class="text-center mb-4">Projects</h1>
+
+      <section id="projects" class="mx-auto" style="max-width: 900px">
+        <article class="mb-4">
+          <h2 class="h5 mb-1">Dual-Layer Encryption System (C++)</h2>
+          <p class="mb-0">
+            Implemented a two-layer encryption/decryption workflow to protect
+            messages efficiently, focusing on correctness and speed.
+          </p>
+        </article>
+
+        <article class="mb-4">
+          <h2 class="h5 mb-1">
+            Air Quality Monitoring System (Autodesk Fusion)
+          </h2>
+          <p class="mb-0">
+            Designed and modeled a device for real-time PM2.5 monitoring;
+            analyzed readings and documented environmental impact findings.
+          </p>
+        </article>
+
+        <article>
+          <h2 class="h5 mb-1">
+            Sidemen Among Us Stats Platform (Streamlit, Python)
+          </h2>
+          <p class="mb-2">
+            Built an interactive site to filter and visualize YouTube gameplay
+            statistics; attracted 15k+ visitors.
+          </p>
+          <p class="mb-0">
+            <a
+              href="https://sidemen-amongus-stats.streamlit.app"
+              target="_blank"
+              rel="noopener"
+              >Visit the app</a
+            >
+          </p>
+        </article>
+      </section>
+    </main>
+    <!-- ===== /BODY ===== -->
+
+    <!-- FOOTER (same across pages) -->
+    <footer class="text-center bg-body-tertiary mt-auto">
+      <div class="container pt-4">
+        <section class="mb-4 d-flex justify-content-center gap-2 flex-wrap">
+          <a
+            class="btn btn-link btn-floating btn-lg text-body m-1"
+            href="https://www.linkedin.com/in/abeneazer-getachew"
+            target="_blank"
+            rel="noopener"
+            data-mdb-ripple-init
+            data-mdb-ripple-color="dark"
+          >
+            <i class="fab fa-linkedin"></i
+            ><span class="visually-hidden">LinkedIn</span>
+          </a>
+          <a
+            class="btn btn-link btn-floating btn-lg text-body m-1"
+            href="https://github.com/Abe-neazer"
+            target="_blank"
+            rel="noopener"
+            data-mdb-ripple-init
+            data-mdb-ripple-color="dark"
+          >
+            <i class="fab fa-github"></i
+            ><span class="visually-hidden">GitHub</span>
+          </a>
+          <a
+            class="btn btn-link btn-floating btn-lg text-body m-1"
+            href="resume.html"
+            data-mdb-ripple-init
+            data-mdb-ripple-color="dark"
+          >
+            <i class="fa-solid fa-file-lines"></i
+            ><span class="visually-hidden">Resume Page</span>
+          </a>
+          <a
+            class="btn btn-link btn-floating btn-lg text-body m-1"
+            href="mailto:abeneazermekonnen@gmail.com"
+            data-mdb-ripple-init
+            data-mdb-ripple-color="dark"
+          >
+            <i class="fa-solid fa-envelope"></i
+            ><span class="visually-hidden">Email</span>
+          </a>
+          <a
+            class="btn btn-link btn-floating btn-lg text-body m-1"
+            href="https://sidemen-amongus-stats.streamlit.app"
+            target="_blank"
+            rel="noopener"
+            data-mdb-ripple-init
+            data-mdb-ripple-color="dark"
+          >
+            <i class="fa-solid fa-globe"></i
+            ><span class="visually-hidden">Project: Streamlit App</span>
+          </a>
+        </section>
+      </div>
+
+      <div
+        class="text-center p-3"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © <span id="year"></span> Abeneazer Getachew
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- MDB (ES module) -->
+    <script type="module">
+      import {
+        Ripple,
+        initMDB,
+      } from "https://cdn.jsdelivr.net/npm/mdb-ui-kit@7.2.0/+esm";
+      initMDB({ Ripple });
+    </script>
+
+    <!-- Auto-highlight current menu item -->
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+      document.addEventListener("DOMContentLoaded", () => {
+        const current = (
+          location.pathname.split("/").pop() || "projects.html"
+        ).toLowerCase();
+        document.querySelectorAll("a.menu-link").forEach((a) => {
+          const href = (a.getAttribute("href") || "")
+            .split("/")
+            .pop()
+            .toLowerCase();
+          const isMatch = href === current;
+          a.classList.toggle("active", isMatch);
+          if (isMatch) a.setAttribute("aria-current", "page");
+          else a.removeAttribute("aria-current");
+        });
+      });
+    </script>
+  </body>
+</html>
