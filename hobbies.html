@@ -64,7 +64,7 @@
         <div class="collapse navbar-collapse" id="mainNav">
           <ul class="navbar-nav gap-1">
             <li class="nav-item">
-              <a class="menu-link" href="home.html">Home</a>
+              <a class="menu-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="menu-link" href="hobbies.html">Hobbies</a>
@@ -76,7 +76,7 @@
         </div>
 
         <!-- brand (right) -->
-        <a class="navbar-brand ms-auto fw-bold" href="home.html">AG</a>
+        <a class="navbar-brand ms-auto fw-bold" href="index.html">AG</a>
       </div>
     </nav>
 
@@ -151,7 +151,7 @@
     <script>
       document.addEventListener("DOMContentLoaded", () => {
         const current = (
-          location.pathname.split("/").pop() || "home.html"
+          location.pathname.split("/").pop() || "index.html"
         ).toLowerCase();
         document.querySelectorAll("a.menu-link").forEach((a) => {
           const href = (a.getAttribute("href") || "")
